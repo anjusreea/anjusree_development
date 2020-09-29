@@ -38,6 +38,7 @@ func returnAllEmployees(w http.ResponseWriter, r *http.Request) {
 	check(err)
 	fmt.Print(string(dat))
 	json.NewEncoder(w).Encode(string(dat))*/
+	/*test comment*/
 
 }
 
